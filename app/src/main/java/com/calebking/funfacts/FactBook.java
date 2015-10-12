@@ -31,13 +31,6 @@ public class FactBook {
         Random randomGenerator = new Random();  // Construct a new Random number generator
         int randomNumber = randomGenerator.nextInt(mFacts.length);
 
-        /**
-         * Convert the randomNumber to a text fact
-         * 0 = Ants stretch when they wake up in the morning.
-         * 1 = Ostriches can run faster than horses.
-         * 2 = Olympic gold medals are actually made mostly of silver
-         * */
-
         fact = mFacts[randomNumber];
         return fact;
     }
